@@ -39,7 +39,7 @@ Apresentação do que foi entregue em cada uma das sprints.
 
 ## :desktop_computer: Tecnologias Utilizadas
 <div align="left">
-  <img src="https://go-skill-icons.vercel.app/api/icons?i=canva,css,figma,git,github,jira,excel,ollama,mysql,discord,js,nodejs,py,ts,vscode" />
+  <img src="https://go-skill-icons.vercel.app/api/icons?i=canva,css,figma,git,github,jira,excel,discord,nodejs,py,ts,vscode" />
 </div>
 
 ###
