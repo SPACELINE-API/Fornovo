@@ -1,4 +1,4 @@
-  # API - 4° Semestre ADS - FATEC SJC
+  # 🚀 SpaceLine - API ADS 4º Semestre
 
   Projeto voltado para 
 
@@ -24,7 +24,8 @@
 
 
   # Objetivo do Projeto
-  
+  Desenvolvimento de aplicação web com modelo de dados complexo e aplicação de padrões de projetos, com automatização das documentações tecnicas internas como: 
+elaboração automatica de memorial e cálculo e especificações tecnicas a partir das plantas em CAD.
 
 
 # :vhs: MVP
