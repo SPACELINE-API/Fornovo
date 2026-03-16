@@ -1,0 +1,6 @@
+[submodule "Fornovo-Frontend"]
+	path = Fornovo-Frontend
+	url = https://github.com/SPACELINE-API/Fornovo-Frontend.git
+[submodule "Fornovo-Backend"]
+	path = Fornovo-Backend
+	url = https://github.com/SPACELINE-API/Fornovo-Backend.git
