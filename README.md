@@ -1,18 +1,40 @@
   # 🚀 SpaceLine - API ADS 4º Semestre
 
-  Projeto voltado para 
 
-  # Índice
-  * [Objetivo do Projeto](#objetivo-do-projeto)
-  * [Demonstrações das sprints](#Demostrações-das-sprints)
-  * [Backlog do produto](#Backlog-do-produto)
-  * [Competências desenvolvidas](#competências-desenvolvidas)
-  * [Autores](#autores)
+ <p align = "center">
+  <a href = "#desafio"> Desafio </a>  |  
+  <a href = "#tecnologias"> Tecnologias </a>  | 
+  <a href = "#prototipo"> Protótipo </a> |
+  <a href = "#backlog"> Backlog do produto </a>  |
+  <a href = "#sprint"> Descrição das sprints </a>  |
+  <a href = "#dor"> DoR </a>  |
+  <a href = "#dod"> DoD </a> |
+  <a href = "#equipe"> Equipe </a>       
+</p>
 
-  # Projeto API
-  
+   ## 📃 Desafio
+   <a id="desafio"></a>
+  Desenvolvimento de aplicação web com modelo de dados complexo e aplicação de padrões de projetos, com automatização das documentações tecnicas internas como: 
+elaboração automatica de memorial e cálculo e especificações tecnicas a partir das plantas em CAD.
 
-  ## :card_index: Sprints
+___
+
+  ## ⚙️ Tecnologias
+<a id="tecnologias"></a>
+<div align="left">
+  <img src="https://go-skill-icons.vercel.app/api/icons?i=canva,css,figma,git,github,vscode,python,django,postgresql,jira,excel,typescript,javascript,html,react,ollama,pandas" />
+</div>
+
+___
+
+  ## 📷 Protótipo do Programa 
+  <a id="prototipo"></a>
+  ![Protótipo]()
+
+___
+
+## 📅 Sprints
+<a id="sprint"></a>
   
   Sprint | Previsão | Status| Link
   |------|--------|------|------|
@@ -23,29 +45,11 @@
   |03| 11/05/2026 - 31/06/2026 | Não iniciado |  |
 
 
-  # Objetivo do Projeto
-  Desenvolvimento de aplicação web com modelo de dados complexo e aplicação de padrões de projetos, com automatização das documentações tecnicas internas como: 
-elaboração automatica de memorial e cálculo e especificações tecnicas a partir das plantas em CAD.
-
-
-# :vhs: MVP
-
-Apresentação do que foi entregue em cada uma das sprints.
-
-![Roadmap]()
-
-
-# Backlog das Sprints
-![Image]()
-
-## :desktop_computer: Tecnologias Utilizadas
-<div align="left">
-  <img src="https://go-skill-icons.vercel.app/api/icons?i=canva,css,figma,git,github,jira,excel,discord,nodejs,py,ts,vscode" />
-</div>
-
 ###
+___
 
-# Backlog do produto
+## 🐙 Backlog do Produto
+<a id="backlog"></a>
 
 | Rank | User Story | Prioridade | Sprint |
 |----|---------|----------|------|
@@ -69,12 +73,20 @@ Apresentação do que foi entregue em cada uma das sprints.
 | 18 | Como usuário, quero filtrar projetos pelo status (em progresso, revisão ou concluído), para identificar rapidamente o estado da obra  | Baixa | 3 |
 | 19 | Como usuário, quero buscar um projeto pelo nome, para encontrar rapidamente um projeto específico  | Baixa | 3 |
 
+___
+
+## 📋 DoR
+<a id="dor"></a>
 
 
+___
 
-  </details>
+## ✅ DoD
+<a id="dod"></a>
 
-# :medal_sports: Docentes
+___
+
+## :medal_sports: Docentes
 | P¹ | m² |
 | ---------------------- | ------------- |
 | Professora Juliana Pasquini | Professor Giuliano Bertoti |
