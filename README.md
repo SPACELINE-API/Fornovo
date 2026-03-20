@@ -77,12 +77,19 @@ ___
 
 ## 📋 DoR
 <a id="dor"></a>
-
-
+- Protótipo desenvolvido no Figma
+- Os critérios de aceitação estão definidos e claros
+- Prazo estimado e explicitamente documentado 
+- A equipe entende o que precisa ser feito e tirou as dúvidas
 ___
 
 ## ✅ DoD
 <a id="dod"></a>
+- Testes de integração foram executados sem falhas
+- Testes unitários executados e aprovados
+- PR sendo realizado e aprovado por pelo menos 2 pessoas antes do merge na branch principal
+- Validação do Product Owner
+- Documentação técnica atualizada
 
 ___
 
