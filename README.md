@@ -104,10 +104,10 @@ ___
 
 | Função         | Nome                                | GitHub |
 | :------------: | :--------------------------------- | :---------------- |
-| Scrum Master   | Rafaela da Silva Penafiel Diniz | [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/rafaelapenafiel) |
+| Scrum Master   | Gustavo Santos Moreira | [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/MoreiraGu)| 
 | Product Owner  | Julia Roberta Ferreira Prianti     | [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/juliaprianti06) |
 | Team Member   | Letícia Gabriele de Oliveira Lopes | [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/Leti-10) |
 | Team Member  | Yasmin Cristina Padilha            | [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/yaspadilha) |
 | Team Member    | Vinícius Lopes                     | [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/Vlopes7) |
-| Team Member    | Gustavo Moreira                     | [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/MoreiraGu) |
+| Team Member    | Rafaela da Silva Penafiel Diniz   | [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/rafaelapenafiel) |
 | Team Member    | Lincoln Borsoi Moreira         | [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/Dollar2006) |
