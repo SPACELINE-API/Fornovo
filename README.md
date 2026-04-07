@@ -22,7 +22,7 @@ ___
   ## ⚙️ Tecnologias
 <a id="tecnologias"></a>
 <div align="left">
-  <img src="https://go-skill-icons.vercel.app/api/icons?i=canva,css,figma,git,github,vscode,python,django,postgresql,jira,excel,typescript,javascript,html,react,ollama,pandas" />
+  <img src="https://go-skill-icons.vercel.app/api/icons?i=canva,css,figma,git,github,vscode,python,django,postgresql,jira,excel,typescript,html,react,ollama" />
 </div>
 
 ___
@@ -40,7 +40,7 @@ ___
   |------|--------|------|------|
   |Kick Off Geral | 02/03/2026 - 06/03/2026 | Concluído | |
   |Construção do Backlog | 09/03/2026 - 13/03/2026 | Concluído | |
-  |01| 16/03/2026 - 05/04/2026 | Em andamento |  |
+  |01| 16/03/2026 - 05/04/2026 | Concluído |  |
   |02| 13/04/2026 - 03/05/2026 | Não iniciado |  |
   |03| 11/05/2026 - 31/06/2026 | Não iniciado |  |
 
