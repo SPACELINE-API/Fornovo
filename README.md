@@ -61,17 +61,16 @@ ___
 | 6 | Como projetista, quero exportar o memorial de cálculo em planilha Excel e salvar os dados do memorial no sistema, para facilitar a análise, documentação e armazenamento das informações do projeto | Média | 1 |
 | 7 | Como administrador, quero atualizar, adicionar ou remover normas NBR no sistema, para garantir que as especificações técnicas e cálculos estejam sempre de acordo com as normas mais recentes  | Média | 1 |
 | 8 | Como usuário, quero visualizar todos os projetos cadastrados, para acompanhar o andamento das obras  | Baixa | 1 |
-| 9 | Como usuário, quero editar os dados de um projeto já cadastrado, para corrigir ou atualizar informações quando necessário | Média | 2 |
-| 10 | Como usuário, quero ter a possibilidade de exportar a planta CAD como imagem, para facilitar a visualização do projeto  | Baixa | 2 |
-| 11 | Como engenheiro, quero utilizar inteligência artificial para auxiliar na geração das especificações técnicas, para automatizar a documentação técnica do projeto  | Altíssima | 2 |
-| 12 | Como engenheiro, quero que as especificações técnicas sejam geradas com base nas normas NBR, para garantir conformidade com as normas técnicas brasileiras  | Alta | 2 |
-| 13 | Como usuário do sistema, quero realizar login com email e senha, para acessar as funcionalidades do sistema de forma segura  | Média | 2 |
-| 14 | Como administrador, quero definir níveis de acesso para os usuários, para controlar quais funcionalidades cada usuário pode acessar  | Média | 2 |
-| 15 | Como administrador, quero cadastrar novos funcionários e desativar funcionários antigos, para manter o controle atualizado dos usuários que podem acessar o sistema | Alta | 3 |
-| 16 | Como administrador, quero gerenciar permissões de criação, edição e visualização de projetos, para garantir segurança e organização   | Média | 3 |
-| 17 | Como projetista, quero receber sugestões de normas NBR aplicáveis ao projeto, para garantir que o memorial esteja de acordo com as normas técnicas  | Alta | 3 |
-| 18 | Como usuário, quero filtrar projetos pelo status (em progresso, revisão ou concluído), para identificar rapidamente o estado da obra  | Baixa | 3 |
-| 19 | Como usuário, quero buscar um projeto pelo nome, para encontrar rapidamente um projeto específico  | Baixa | 3 |
+| 9 | Como usuário, quero atualizar o status do projeto de acordo com a regra de negócio, seguindo a sequência: de Pendente para Em andamento, depois para Em revisão e, por fim, Concluído| Média | 2 |
+| 10 | Como engenheiro, quero utilizar inteligência artificial para auxiliar na geração das especificações técnicas, para automatizar a documentação técnica do projeto  | Altíssima | 2 |
+| 11 | Como engenheiro, quero que as especificações técnicas sejam geradas com base nas normas NBR, para garantir conformidade com as normas técnicas brasileiras  | Alta | 2 |
+| 12 | Como usuário do sistema, quero realizar login com email e senha, para acessar as funcionalidades do sistema de forma segura  | Média | 2 |
+| 13 | Como administrador, quero definir níveis de acesso para os usuários, para controlar quais funcionalidades cada usuário pode acessar  | Média | 2 |
+| 14 | Como administrador, quero cadastrar novos funcionários e desativar funcionários antigos, para manter o controle atualizado dos usuários que podem acessar o sistema | Alta | 3 |
+| 15 | Como administrador, quero gerenciar permissões de criação, edição e visualização de projetos, para garantir segurança e organização   | Média | 3 |
+| 16 | Como projetista, quero receber sugestões de normas NBR aplicáveis ao projeto, para garantir que o memorial esteja de acordo com as normas técnicas  | Alta | 3 |
+| 17 | Como usuário, quero filtrar projetos pelo status (em progresso, revisão ou concluído), para identificar rapidamente o estado da obra  | Baixa | 3 |
+| 18 | Como usuário, quero buscar um projeto pelo nome, para encontrar rapidamente um projeto específico  | Baixa | 3 |
 
 ___
 
