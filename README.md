@@ -15,7 +15,7 @@
    ## 📃 Desafio
    <a id="desafio"></a>
   Desenvolvimento de aplicação web com modelo de dados complexo e aplicação de padrões de projetos, com automatização das documentações tecnicas internas como: 
-elaboração automatica de memorial e cálculo e especificações tecnicas a partir das plantas em CAD.
+elaboração automática de memorial e cálculo e especificações técnicas a partir das plantas em CAD.
 
 ___
 
@@ -26,28 +26,6 @@ ___
 </div>
 
 ___
-
-  ## 📷 Protótipo do Programa 
-  <a id="prototipo"></a>
-  ![Protótipo]()
-
-___
-
-## 📅 Sprints
-<a id="sprint"></a>
-  
-  Sprint | Previsão | Status| Link
-  |------|--------|------|------|
-  |Kick Off Geral | 02/03/2026 - 06/03/2026 | Concluído ||
-  |Construção do Backlog | 09/03/2026 - 13/03/2026 | Concluído | |
-  |01| 16/03/2026 - 05/04/2026 | Concluído |https://youtu.be/bpylkHViR04  |
-  |02| 13/04/2026 - 03/05/2026 | Não iniciado |  |
-  |03| 11/05/2026 - 31/06/2026 | Não iniciado |  |
-
-
-###
-___
-
 ## 🐙 Backlog do Produto
 <a id="backlog"></a>
 
@@ -74,6 +52,12 @@ ___
 
 ___
 
+  ## 📷 Protótipo do Programa 
+  <a id="prototipo"></a>
+  ![Protótipo]()
+
+___
+###
 ## 📋 DoR
 <a id="dor"></a>
 - Protótipo desenvolvido no Figma
@@ -89,6 +73,19 @@ ___
 - PR sendo realizado e aprovado por pelo menos 2 pessoas antes do merge na branch principal
 - Validação do Product Owner
 - Documentação técnica atualizada
+
+  ## 📅 Sprints
+<a id="sprint"></a>
+  
+  Sprint | Previsão | Status| Link
+  |------|--------|------|------|
+  |Kick Off Geral | 02/03/2026 - 06/03/2026 | Concluído ||
+  |Construção do Backlog | 09/03/2026 - 13/03/2026 | Concluído | |
+  |01| 16/03/2026 - 05/04/2026 | Concluído |https://youtu.be/bpylkHViR04  |
+  |02| 13/04/2026 - 03/05/2026 | Não iniciado |  |
+  |03| 11/05/2026 - 31/06/2026 | Não iniciado |  |
+
+
 
 ___
 
