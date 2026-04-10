@@ -4,11 +4,11 @@
  <p align = "center">
   <a href = "#desafio"> Desafio </a>  |  
   <a href = "#tecnologias"> Tecnologias </a>  | 
-  <a href = "#prototipo"> Protótipo </a> |
   <a href = "#backlog"> Backlog do produto </a>  |
-  <a href = "#sprint"> Descrição das sprints </a>  |
+  <a href = "#prototipo"> Protótipo </a> |
   <a href = "#dor"> DoR </a>  |
   <a href = "#dod"> DoD </a> |
+  <a href = "#sprint"> Descrição das sprints </a>  |
   <a href = "#equipe"> Equipe </a>       
 </p>
 
@@ -54,7 +54,15 @@ ___
 
   ## 📷 Protótipo do Programa 
   <a id="prototipo"></a>
-  ![Protótipo]()
+<div align="center">
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/7800bd28-f388-4c03-91c4-f3a24db2326b" width="500"></td>
+    <td width="10"></td>
+    <td><img src="https://github.com/user-attachments/assets/bcbf8eec-899f-4f4b-91e9-729b7682c859" width="500"></td>
+  </tr>
+</table>
+</div>
 
 ___
 ###
@@ -73,7 +81,7 @@ ___
 - PR sendo realizado e aprovado por pelo menos 2 pessoas antes do merge na branch principal
 - Validação do Product Owner
 - Documentação técnica atualizada
-
+___
   ## 📅 Sprints
 <a id="sprint"></a>
   
