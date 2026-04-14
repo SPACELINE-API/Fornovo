@@ -6,8 +6,6 @@
   <a href = "#tecnologias"> Tecnologias </a>  | 
   <a href = "#backlog"> Backlog do produto </a>  |
   <a href = "#prototipo"> Protótipo </a> |
-  <a href = "#dor"> DoR </a>  |
-  <a href = "#dod"> DoD </a> |
   <a href = "#sprint"> Descrição das sprints </a>  |
   <a href = "#equipe"> Equipe </a>       
 </p>
@@ -65,35 +63,95 @@ ___
 </div>
 
 ___
-###
-## 📋 DoR
-<a id="dor"></a>
-- Protótipo desenvolvido no Figma
-- Os critérios de aceitação estão definidos e claros
-- Prazo estimado e explicitamente documentado 
-- A equipe entende o que precisa ser feito e tirou as dúvidas
-___
 
-## ✅ DoD
-<a id="dod"></a>
-- Testes de integração foram executados sem falhas
-- Testes unitários executados e aprovados
-- PR sendo realizado e aprovado por pelo menos 2 pessoas antes do merge na branch principal
-- Validação do Product Owner
-- Documentação técnica atualizada
-___
-  ## 📅 Sprints
+## 📅 Sprints
 <a id="sprint"></a>
-  
-  Sprint | Previsão | Status| Link
-  |------|--------|------|------|
-  |Kick Off Geral | 02/03/2026 - 06/03/2026 | Concluído ||
-  |Construção do Backlog | 09/03/2026 - 13/03/2026 | Concluído | |
-  |01| 16/03/2026 - 05/04/2026 | Concluído |https://youtu.be/bpylkHViR04  |
-  |02| 13/04/2026 - 03/05/2026 | Não iniciado |  |
-  |03| 11/05/2026 - 31/06/2026 | Não iniciado |  |
 
+| Sprint | Previsão | Status | DoR / DoD | Link |
+|------|--------|------|------|------|
+| Kick Off Geral | 02/03/2026 - 06/03/2026 | Concluído | — | |
+| Construção do Backlog | 09/03/2026 - 13/03/2026 | Concluído | — | |
+| 01 | 16/03/2026 - 05/04/2026 | Concluído | [DoR e DoD](https://github.com/SPACELINE-API/Fornovo/blob/API-Home/docs/sprints/sprint1/DoR%20e%20DoD%20-%20Sprint%201.pdf) | https://youtu.be/bpylkHViR04 |
+| 02 | 13/04/2026 - 03/05/2026 | Em andamento | [DoR e DoD](https://github.com/SPACELINE-API/Fornovo/blob/API-Home/docs/sprints/sprint1/DoR%20e%20DoD%20-%20Sprint%201.pdf) | |
+| 03 | 11/05/2026 - 31/06/2026 | Não iniciado | [DoR e DoD](https://github.com/SPACELINE-API/Fornovo/blob/API-Home/docs/sprints/sprint1/DoR%20e%20DoD%20-%20Sprint%201.pdf) | |
 
+---
+
+# Como testar o projeto?
+
+## 📋 Pré-requisitos
+
+Antes de iniciar, é necessário ter instalado:
+
+| Tecnologia | Versão recomendada |
+| :--- | :--- |
+| **Python** | 3.10 ou superior |
+| **Node.js** | 18 ou superior |
+| **npm** | 9 ou superior |
+| **PostgreSQL** | 14 ou superior |
+| **Git** | Última versão |
+------------------------------------------------------------------------
+
+## ⚙️ Backend (Django)
+
+1.  Acesse a pasta do backend
+
+    cd backend
+
+2.  Crie o ambiente virtual
+
+    python -m venv venv
+
+3.  Ative o ambiente virtual
+
+### Windows
+
+    venv\Scripts\activate
+
+### Linux / Mac
+
+    source venv/bin/activate
+
+4.  Instale as dependências
+
+    pip install -r requirements.txt
+
+5.  Execute as migrações do banco
+
+    python manage.py migrate
+
+6.  Inicie o servidor
+
+    python manage.py runserver
+
+### O backend estará disponível em:
+
+http://127.0.0.1:8000
+
+------------------------------------------------------------------------
+
+## 🎨 Frontend (React)
+
+1.  Acesse a pasta do frontend
+
+    cd frontend
+
+2.  Instale as dependências
+
+    npm install
+
+3.  Execute o projeto
+
+    npm run dev
+
+### O frontend estará disponível em:
+
+http://localhost:5173
+
+------------------------------------------------------------------------
+
+✅ Após iniciar backend e frontend, o sistema já estará pronto para uso no
+navegador.
 
 ___
 
