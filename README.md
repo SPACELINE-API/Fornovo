@@ -77,7 +77,7 @@ ___
 
 ---
 
-# Como testar o projeto?
+## Como testar o projeto?
 
 ## 📋 Pré-requisitos
 
@@ -116,27 +116,26 @@ Antes de iniciar, é necessário ter instalado:
 
 Crie um arquivo .env com o seguinte conteúdo:
 
-DB_NAME=
+- DB_NAME=
+- DB_USER=
+- DB_PASSWORD=
+- DB_HOST=
+- DB_PORT=
 
-DB_USER=
+5. Depois instale as dependências:
 
-DB_PASSWORD=
+       pip install -r requirements.txt
 
-DB_HOST=
 
-DB_PORT=
+6.  Execute as migrações do banco
 
-Depois instale as dependências:
+#### (Antes de executar as migrações, crie um o banco no pgAdmin4 para o migrate ter onde rodar)
 
-pip install -r requirements.txt
+        python manage.py migrate
 
-5.  Execute as migrações do banco
+7.  Inicie o servidor
 
-    python manage.py migrate
-
-6.  Inicie o servidor
-
-    python manage.py runserver
+        python manage.py runserver
 
 ### O backend estará disponível em:
 
@@ -148,15 +147,15 @@ http://127.0.0.1:8000
 
 1.  Acesse a pasta do frontend
 
-    cd frontend
+        cd frontend
 
 2.  Instale as dependências
 
-    npm install
+        npm install
 
 3.  Execute o projeto
 
-    npm run dev
+        npm run dev
 
 ### O frontend estará disponível em:
 
