@@ -112,9 +112,23 @@ Antes de iniciar, é necessário ter instalado:
 
     source venv/bin/activate
 
-4.  Instale as dependências
+4. Adicione o .env e instale as dependências
 
-    pip install -r requirements.txt
+Crie um arquivo .env com o seguinte conteúdo:
+
+DB_NAME=
+
+DB_USER=
+
+DB_PASSWORD=
+
+DB_HOST=
+
+DB_PORT=
+
+Depois instale as dependências:
+
+pip install -r requirements.txt
 
 5.  Execute as migrações do banco
 
