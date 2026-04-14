@@ -96,11 +96,11 @@ Antes de iniciar, é necessário ter instalado:
 
 1.  Acesse a pasta do backend
 
-    cd backend
+        cd fornovo-backend/forback
 
 2.  Crie o ambiente virtual
 
-    python -m venv venv
+        python -m venv venv
 
 3.  Ative o ambiente virtual
 
@@ -147,7 +147,7 @@ http://127.0.0.1:8000
 
 1.  Acesse a pasta do frontend
 
-        cd frontend
+        cd fornovo-frontend/forfront
 
 2.  Instale as dependências
 
