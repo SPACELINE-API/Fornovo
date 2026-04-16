@@ -5,6 +5,7 @@
   <a href = "#desafio"> Desafio </a>  |  
   <a href = "#tecnologias"> Tecnologias </a>  | 
   <a href = "#backlog"> Backlog do produto </a>  |
+  <a href = "#modelos"> Modelos conceitual e lógico </a>  |
   <a href = "#prototipo"> Protótipo </a> |
   <a href = "#sprint"> Descrição das sprints </a>  |
   <a href = "#equipe"> Equipe </a>       
@@ -49,6 +50,17 @@ ___
 | 18 | Como usuário, quero buscar um projeto pelo nome, para encontrar rapidamente um projeto específico  | Baixa | 3 |
 
 ___
+
+## 🎲 Modelos conceitual e lógico <a id="modelos"></a>
+
+### Modelo Conceitual
+<img width="1128" height="387" alt="WhatsApp Image 2026-04-14 at 18 43 33" src="https://github.com/user-attachments/assets/3ed685c2-a73a-49cf-96e5-81fd180c120f" />
+
+### Modelo Lógico
+<img width="898" height="519" alt="Modelo Lógico" src="https://github.com/user-attachments/assets/ff4f3e9b-cfa9-4392-b602-330f6ef0497e" />
+
+___
+
 
   ## 📷 Protótipo do Programa 
   <a id="prototipo"></a>
