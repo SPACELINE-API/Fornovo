@@ -5,7 +5,6 @@
   <a href = "#desafio"> Desafio </a>  |  
   <a href = "#tecnologias"> Tecnologias </a>  | 
   <a href = "#backlog"> Backlog do produto </a>  |
-  <a href = "#modelos"> Modelos conceitual e lógico </a>  |
   <a href = "#prototipo"> Protótipo </a> |
   <a href = "#sprint"> Descrição das sprints </a>  |
   <a href = "#equipe"> Equipe </a>       
@@ -48,16 +47,6 @@ ___
 | 16 | Como projetista, quero receber sugestões de normas NBR aplicáveis ao projeto, para garantir que o memorial esteja de acordo com as normas técnicas  | Alta | 3 |
 | 17 | Como usuário, quero filtrar projetos pelo status (em progresso, revisão ou concluído), para identificar rapidamente o estado da obra  | Baixa | 3 |
 | 18 | Como usuário, quero buscar um projeto pelo nome, para encontrar rapidamente um projeto específico  | Baixa | 3 |
-
-___
-
-## 🎲 Modelos conceitual e lógico <a id="modelos"></a>
-
-### Modelo Conceitual
-<img width="1128" height="387" alt="WhatsApp Image 2026-04-14 at 18 43 33" src="https://github.com/user-attachments/assets/3ed685c2-a73a-49cf-96e5-81fd180c120f" />
-
-### Modelo Lógico
-<img width="898" height="519" alt="Modelo Lógico" src="https://github.com/user-attachments/assets/ff4f3e9b-cfa9-4392-b602-330f6ef0497e" />
 
 ___
 
@@ -104,7 +93,7 @@ Antes de iniciar, é necessário ter instalado:
 | **Git** | Última versão |
 ------------------------------------------------------------------------
 
-## ⚙️ Backend (Django)
+## 🔧 Backend (Django)
 
 1.  Acesse a pasta do backend
 
@@ -116,38 +105,38 @@ Antes de iniciar, é necessário ter instalado:
 
 3.  Ative o ambiente virtual
 
-### Windows
+    ### Windows
 
-    venv\Scripts\activate
+        venv\Scripts\activate
 
-### Linux / Mac
+    ### Linux / Mac
 
-    source venv/bin/activate
+        source venv/bin/activate
 
-4. Adicione o .env e instale as dependências
+ 4. Adicione o .env e instale as dependências
 
-Crie um arquivo .env com o seguinte conteúdo:
+    Crie um arquivo .env com o seguinte conteúdo:
+    
+    - DB_NAME=
+    - DB_USER=
+    - DB_PASSWORD=
+    - DB_HOST=
+    - DB_PORT=
 
-- DB_NAME=
-- DB_USER=
-- DB_PASSWORD=
-- DB_HOST=
-- DB_PORT=
+ 5. Depois instale as dependências:
 
-5. Depois instale as dependências:
-
-       pip install -r requirements.txt
+        pip install -r requirements.txt
 
 
-6.  Execute as migrações do banco
+ 6.  Execute as migrações do banco
 
-#### (Antes de executar as migrações, crie um o banco no pgAdmin4 para o migrate ter onde rodar)
+     ### (Antes de executar as migrações, crie um o banco no pgAdmin4 para o migrate ter onde rodar)
 
-        python manage.py migrate
+         python manage.py migrate
 
-7.  Inicie o servidor
+ 7.  Inicie o servidor
 
-        python manage.py runserver
+         python manage.py runserver
 
 ### O backend estará disponível em:
 
@@ -157,17 +146,17 @@ http://127.0.0.1:8000
 
 ## 🎨 Frontend (React)
 
-1.  Acesse a pasta do frontend
+   1.  Acesse a pasta do frontend
 
-        cd fornovo-frontend/forfront
+           cd fornovo-frontend/forfront
 
-2.  Instale as dependências
+   2.  Instale as dependências
 
-        npm install
+           npm install
 
-3.  Execute o projeto
+   3.  Execute o projeto
 
-        npm run dev
+           npm run dev
 
 ### O frontend estará disponível em:
 
