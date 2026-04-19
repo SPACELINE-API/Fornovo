@@ -6,6 +6,7 @@
   <a href = "#tecnologias"> Tecnologias </a>  | 
   <a href = "#backlog"> Backlog do produto </a>  |
   <a href = "#prototipo"> Protótipo </a> |
+  <a href = "#modelos"> Modelo lógico e conceitual </a> |
   <a href = "#sprint"> Descrição das sprints </a>  |
   <a href = "#equipe"> Equipe </a>       
 </p>
@@ -65,6 +66,19 @@ ___
 
 ___
 
+
+## 📷 Modelos do Banco de Dados
+<a id="modelo"></a>
+
+### 🧠 Modelo Conceitual
+[Modelo Conceitual](https://github.com/SPACELINE-API/Fornovo/blob/API-Home/docs/modelos/conceitual.jpeg)
+
+---
+
+### 🗄 Modelo Lógico
+[Modelo Lógico](https://github.com/SPACELINE-API/Fornovo/blob/API-Home/docs/modelos/l%C3%B3gico.jpeg)
+
+___
 ## 📅 Sprints
 <a id="sprint"></a>
 
