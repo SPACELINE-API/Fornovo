@@ -5,9 +5,8 @@
   <a href = "#desafio"> Desafio </a>  |  
   <a href = "#tecnologias"> Tecnologias </a>  | 
   <a href = "#backlog"> Backlog do produto </a>  |
-  <a href = "#prototipo"> Protótipo </a> |
-  <a href = "#modelos"> Modelo lógico e conceitual </a> |
-  <a href = "#sprint"> Descrição das sprints </a>  |
+  <a href = "#calendario"> Calendário de Entregas </a> |
+  <a href = "#sprint"> Resumo das Sprints </a> | 
   <a href = "#equipe"> Equipe </a>       
 </p>
 
@@ -36,63 +35,156 @@ ___
 | 4 | Como engenheiro, quero que o sistema extraia coordenadas e elementos geométricos da planta CAD, para utilizar essas informações nos cálculos do projeto | Alta | 1 |
 | 5 | Como engenheiro, quero que o sistema realize automaticamente os cálculos do memorial técnico de acordo com as fórmulas definidas, para garantir precisão nos resultados e agilizar a elaboração do documento do projeto | Altíssima | 1 |
 | 6 | Como projetista, quero exportar o memorial de cálculo em planilha Excel e salvar os dados do memorial no sistema, para facilitar a análise, documentação e armazenamento das informações do projeto | Média | 1 |
-| 7 | Como administrador, quero atualizar, adicionar ou remover normas NBR no sistema, para garantir que as especificações técnicas e cálculos estejam sempre de acordo com as normas mais recentes  | Média | 1 |
-| 8 | Como usuário, quero visualizar todos os projetos cadastrados, para acompanhar o andamento das obras  | Baixa | 1 |
-| 9 | Como usuário, quero atualizar o status do projeto de acordo com a regra de negócio, seguindo a sequência: de Pendente para Em andamento, depois para Em revisão e, por fim, Concluído| Média | 2 |
-| 10 | Como engenheiro, quero utilizar inteligência artificial para auxiliar na geração das especificações técnicas, para automatizar a documentação técnica do projeto  | Altíssima | 2 |
-| 11 | Como engenheiro, quero que as especificações técnicas sejam geradas com base nas normas NBR, para garantir conformidade com as normas técnicas brasileiras  | Alta | 2 |
+| 7 | Como engenheiro, quero atualizar, adicionar ou remover normas NBR no sistema, para garantir que as especificações técnicas e cálculos estejam sempre de acordo com as normas mais recentes  | Média | 1 |
+| 8 | Como projetista, quero visualizar todos os projetos cadastrados, para acompanhar o andamento das obras  | Baixa | 1 |
+| 9 | Como usuário, quero filtrar projetos pelo status (em progresso, revisão ou concluído), para identificar rapidamente o estado da obra  | Baixa | 1 |
+| 10 | Como projetista, quero buscar um projeto pelo nome, para encontrar rapidamente um projeto específico  | Baixa | 1 |
+| 11 | Como usuário, quero atualizar o status do projeto de acordo com a regra de negócio, seguindo a sequência: de Pendente para Em andamento, depois para Em revisão e, por fim, Concluído| Média | 2 |
 | 12 | Como usuário do sistema, quero realizar login com email e senha, para acessar as funcionalidades do sistema de forma segura  | Média | 2 |
-| 13 | Como administrador, quero definir níveis de acesso para os usuários, para controlar quais funcionalidades cada usuário pode acessar  | Média | 2 |
-| 14 | Como administrador, quero cadastrar novos funcionários e desativar funcionários antigos, para manter o controle atualizado dos usuários que podem acessar o sistema | Alta | 3 |
-| 15 | Como administrador, quero gerenciar permissões de criação, edição e visualização de projetos, para garantir segurança e organização   | Média | 3 |
-| 16 | Como projetista, quero receber sugestões de normas NBR aplicáveis ao projeto, para garantir que o memorial esteja de acordo com as normas técnicas  | Alta | 3 |
-| 17 | Como usuário, quero filtrar projetos pelo status (em progresso, revisão ou concluído), para identificar rapidamente o estado da obra  | Baixa | 3 |
-| 18 | Como usuário, quero buscar um projeto pelo nome, para encontrar rapidamente um projeto específico  | Baixa | 3 |
+| 13 | Como administrador, quero que todos os usuários tenham acesso padrão às funcionalidades do sistema, para garantir simplicidade no uso | Média | 2 |
+| 14 | Como administrador, quero cadastrar novos funcionários e desativar funcionários antigos, para manter o controle atualizado dos usuários que podem acessar o sistema | Alta | 2 |
+| 15 | Como projetista, quero receber sugestões de normas NBR aplicáveis ao projeto, para garantir que o memorial esteja de acordo com as normas técnicas  | Alta | 3 |
+| 16 | Como engenheiro, quero utilizar inteligência artificial para auxiliar na geração das especificações técnicas e para automatizar a documentação do projeto  | Altíssima | 3 |
+| 17 | Como engenheiro, quero que as especificações técnicas sejam geradas com base nas normas NBR, para garantir conformidade com as normas técnicas brasileiras  | Alta | 3 |
+|18 | Como engenheiro, quero visualizar todo o sistema por meio de um dashboard, com indicadores e dados resumidos, para acompanhar o andamento e tomar decisões com mais facilidade | Baixa | 3 |
 
 ___
 
+## 📅 Calendário de Entregas
+<a id="calendario"></a>
 
-  ## 📷 Protótipo do Programa 
+| Sprint | Previsão | Status | 
+|------|--------|------|
+| Kick Off Geral | 02/03/2026 - 06/03/2026 | Concluído | 
+| Construção do Backlog | 09/03/2026 - 13/03/2026 | Concluído |
+| 01 | 16/03/2026 - 05/04/2026 | Concluído | 
+| 02 | 13/04/2026 - 03/05/2026 | Em andamento |
+| 03 | 11/05/2026 - 31/06/2026 | Não iniciado | 
+
+___
+
+## 📝 Resumo das Sprints
+<a id="sprint"></a>
+<details>
+     
+<summary>Sprint 1</summary>
+
+  ## 🎯 Objetivos da Sprint
+
+  <p>Nesta sprint, foi planejada a entrega de:</p>
+  
+  <ul>
+    <li> Plataforma inicial com cadastro de projetos, formulário de levantamento de campo e importação de arquivos CAD (DXF)</li>
+    <li> Visualização, busca e filtragem dos projetos cadastrados</li>
+    <li> Sistema com extração automática de dados geométricos da planta e geração automatizada do memorial de cálculo</li>
+    <li> Exportação dos resultados em Excel</li>
+    <li> Cadastro de normas NBR no sistema para garantir conformidade dos documentos técnicos</li>
+  </ul>
+
+  ## 🔍 DoR e DoD
+  [Acessar documentação](docs/sprints/sprint1/DoR%20e%20DoD%20-%20Sprint%201.pdf)
+
+  ## 📷 Protótipo
   <a id="prototipo"></a>
 <div align="center">
 <table>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/7800bd28-f388-4c03-91c4-f3a24db2326b" width="500"></td>
+    <td><img src="https://github.com/user-attachments/assets/7800bd28-f388-4c03-91c4-f3a24db2326b" width="400"></td>
     <td width="10"></td>
-    <td><img src="https://github.com/user-attachments/assets/bcbf8eec-899f-4f4b-91e9-729b7682c859" width="500"></td>
+    <td><img src="https://github.com/user-attachments/assets/bcbf8eec-899f-4f4b-91e9-729b7682c859" width="400"></td>
   </tr>
 </table>
 </div>
 
-___
+  ## 🎥 Vídeo do Produto
+  <p align=left">
+    <a href="https://youtu.be/bpylkHViR04">
+      <img src="https://github.com/user-attachments/assets/151a6bee-465d-4097-b799-0a006f229ea1" width="400"/>
+    </a>
+  </p>
+  
+</details>
 
+<details>
+     
+<summary>Sprint 2</summary>
 
-## 📷 Modelos do Banco de Dados
-<a id="modelo"></a>
+  ## 🎯 Objetivos da Sprint
 
-### 🧠 Modelo Conceitual
-[Modelo Conceitual](https://github.com/SPACELINE-API/Fornovo/blob/API-Home/docs/modelos/conceitual.jpeg)
+  <p>Nesta sprint, foi planejada a entrega de:</p>
+  
+  <ul>
+    <li> Sistema de autenticação com login</li>
+    <li> Cadastro e edição de funcionário</li>
+    <li> Funcionalidades de edição de projetos</li>
+    <li> Relatório com os dados extraídos da planta CAD</li>
+  </ul>
+
+  ## 🔍 DoR e DoD
+  [Acessar documentação](docs/sprints/sprint2/DoR%20e%20DoD%20-%20Sprint%202.pdf)
+
+  ## 📷 Protótipo
+<div align="center">
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/3d982ab8-2833-49e4-ad78-cc22f48ed145" width="400"></td>
+    <td width="10"></td>
+    <td><img src="https://github.com/user-attachments/assets/cfe693d2-41c5-41d9-901e-935eb2ea1367" width="400"></td>
+  </tr>
+</table>
+</div>
+
+  ## 🎥 Vídeo do Produto
+  <p align=left">
+    <a href="">
+      <img src="https://github.com/user-attachments/assets/632bdc05-25e1-49d7-a5de-d679f4643b07" width="400"/>
+    </a>
+  </p>
+  
+</details>
+
+<details>
+<summary>Sprint 3</summary>
+
+  ## 🎯 Objetivos da Sprint
+
+  <p>Nesta sprint, foi planejada a entrega de:</p>
+  
+  <ul>
+    <li> Uso da inteligência artificial para apoio na geração de especificações técnicas com base nas normas NBR</li>
+    <li> Sugestão automatizada de normas NBR</li>
+    <li> Criação de um dashboard para a visualização dos dados do sistema</li>
+  </ul>
+
+  ## 🔍 DoR e DoD
+  [Acessar documentação](docs/sprints/sprint%203/DoR%20e%20DoD%20-%20Sprint%203.pdf)
+
+  ## 📷 Protótipo
+  <a id="prototipo"></a>
+<div align="center">
+<table>
+  <tr>
+    <td><img src="" width="400"></td>
+    <td width="10"></td>
+    <td><img src="" width="400"></td>
+  </tr>
+</table>
+</div>
+
+  ## 🎥 Vídeo do Produto
+  <p align=left">
+    <a href="">
+      <img src="" width="400"/>
+    </a>
+  </p>
+  
+</details>
+
 
 ---
+<details>
 
-### 🗄 Modelo Lógico
-[Modelo Lógico](https://github.com/SPACELINE-API/Fornovo/blob/API-Home/docs/modelos/l%C3%B3gico.jpeg)
-
-___
-## 📅 Sprints
-<a id="sprint"></a>
-
-| Sprint | Previsão | Status | DoR / DoD | Link |
-|------|--------|------|------|------|
-| Kick Off Geral | 02/03/2026 - 06/03/2026 | Concluído | — | |
-| Construção do Backlog | 09/03/2026 - 13/03/2026 | Concluído | — | |
-| 01 | 16/03/2026 - 05/04/2026 | Concluído | [DoR e DoD](https://github.com/SPACELINE-API/Fornovo/blob/API-Home/docs/sprints/sprint1/DoR%20e%20DoD%20-%20Sprint%201.pdf) | https://youtu.be/bpylkHViR04 |
-| 02 | 13/04/2026 - 03/05/2026 | Em andamento | [DoR e DoD](https://github.com/SPACELINE-API/Fornovo/blob/API-Home/docs/sprints/sprint1/DoR%20e%20DoD%20-%20Sprint%201.pdf) | |
-| 03 | 11/05/2026 - 31/06/2026 | Não iniciado | [DoR e DoD](https://github.com/SPACELINE-API/Fornovo/blob/API-Home/docs/sprints/sprint1/DoR%20e%20DoD%20-%20Sprint%201.pdf) | |
-
----
-
-## Como testar o projeto?
+<summary> Como testar o projeto?</summary>
 
 ## 📋 Pré-requisitos
 
@@ -180,8 +272,10 @@ http://localhost:5173
 
 ✅ Após iniciar backend e frontend, o sistema já estará pronto para uso no
 navegador.
+</details>
 
-___
+---
+
 
 ## :medal_sports: Docentes
 | P¹ | m² |
