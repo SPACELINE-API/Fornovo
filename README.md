@@ -43,10 +43,9 @@ ___
 | 12 | Como usuário do sistema, quero realizar login com email e senha, para acessar as funcionalidades do sistema de forma segura  | Média | 2 |
 | 13 | Como administrador, quero que todos os usuários tenham acesso padrão às funcionalidades do sistema, para garantir simplicidade no uso | Média | 2 |
 | 14 | Como administrador, quero cadastrar novos funcionários e desativar funcionários antigos, para manter o controle atualizado dos usuários que podem acessar o sistema | Alta | 2 |
-| 15 | Como projetista, quero receber sugestões de normas NBR aplicáveis ao projeto, para garantir que o memorial esteja de acordo com as normas técnicas  | Alta | 3 |
-| 16 | Como engenheiro, quero utilizar inteligência artificial para auxiliar na geração das especificações técnicas e para automatizar a documentação do projeto  | Altíssima | 3 |
-| 17 | Como engenheiro, quero que as especificações técnicas sejam geradas com base nas normas NBR, para garantir conformidade com as normas técnicas brasileiras  | Alta | 3 |
-|18 | Como engenheiro, quero visualizar todo o sistema por meio de um dashboard, com indicadores e dados resumidos, para acompanhar o andamento e tomar decisões com mais facilidade | Baixa | 3 |
+| 15 | Como engenheiro, quero utilizar inteligência artificial para auxiliar na geração das especificações técnicas e para automatizar a documentação do projeto  | Altíssima | 3 |
+| 16 | Como engenheiro, quero que as especificações técnicas sejam geradas com base nas normas NBR, para garantir conformidade com as normas técnicas brasileiras  | Alta | 3 |
+| 17 | Como engenheiro, quero visualizar todo o sistema por meio de um dashboard, com indicadores e dados resumidos, para acompanhar o andamento e tomar decisões com mais facilidade | Baixa | 3 |
 
 ___
 
@@ -152,12 +151,11 @@ ___
   
   <ul>
     <li> Uso da inteligência artificial para apoio na geração de especificações técnicas com base nas normas NBR</li>
-    <li> Sugestão automatizada de normas NBR</li>
     <li> Criação de um dashboard para a visualização dos dados do sistema</li>
   </ul>
 
   ## 🔍 DoR e DoD
-  [Acessar documentação](docs/sprints/sprint%203/DoR%20e%20DoD%20-%20Sprint%203.pdf)
+  [Acessar documentação](docs/sprints/sprint-3/DoR%20e%20DoD-%20Sprint%203.pdf)
 
   ## 📷 Protótipo
   <a id="prototipo"></a>
