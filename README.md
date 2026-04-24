@@ -182,7 +182,7 @@ ___
 ---
 
 
-## 🗂️ Manual de execução
+## 🗂️ Manual de Execução
 <a id="teste"></a>
 <details>
 
