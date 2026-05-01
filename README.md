@@ -1,4 +1,5 @@
   # 🚀 SpaceLine - API ADS 4º Semestre
+  <img width="1584" height="396" alt="White and Blue Simple Gradient Business Profile LinkedIn Banner" src="https://github.com/user-attachments/assets/db8c92b3-0f3c-4c69-8097-c7b74c842e38" />
 
 
  <p align = "center">
@@ -7,6 +8,7 @@
   <a href = "#backlog"> Backlog do produto </a>  |
   <a href = "#calendario"> Calendário de Entregas </a> |
   <a href = "#sprint"> Resumo das Sprints </a> | 
+  <a href = "#teste"> Manual de Execução</a> | 
   <a href = "#equipe"> Equipe </a>       
 </p>
 
@@ -43,10 +45,9 @@ ___
 | 12 | Como usuário do sistema, quero realizar login com email e senha, para acessar as funcionalidades do sistema de forma segura  | Média | 2 |
 | 13 | Como administrador, quero que todos os usuários tenham acesso padrão às funcionalidades do sistema, para garantir simplicidade no uso | Média | 2 |
 | 14 | Como administrador, quero cadastrar novos funcionários e desativar funcionários antigos, para manter o controle atualizado dos usuários que podem acessar o sistema | Alta | 2 |
-| 15 | Como projetista, quero receber sugestões de normas NBR aplicáveis ao projeto, para garantir que o memorial esteja de acordo com as normas técnicas  | Alta | 3 |
-| 16 | Como engenheiro, quero utilizar inteligência artificial para auxiliar na geração das especificações técnicas e para automatizar a documentação do projeto  | Altíssima | 3 |
-| 17 | Como engenheiro, quero que as especificações técnicas sejam geradas com base nas normas NBR, para garantir conformidade com as normas técnicas brasileiras  | Alta | 3 |
-|18 | Como engenheiro, quero visualizar todo o sistema por meio de um dashboard, com indicadores e dados resumidos, para acompanhar o andamento e tomar decisões com mais facilidade | Baixa | 3 |
+| 15 | Como engenheiro, quero utilizar inteligência artificial para auxiliar na geração das especificações técnicas e para automatizar a documentação do projeto  | Altíssima | 3 |
+| 16 | Como engenheiro, quero que as especificações técnicas sejam geradas com base nas normas NBR, para garantir conformidade com as normas técnicas brasileiras  | Alta | 3 |
+| 17 | Como engenheiro, quero visualizar todo o sistema por meio de um dashboard, com indicadores e dados resumidos, para acompanhar o andamento e tomar decisões com mais facilidade | Baixa | 3 |
 
 ___
 
@@ -97,7 +98,7 @@ ___
 </div>
 
   ## 🎥 Vídeo do Produto
-  <p align=left">
+  <p align="center">
     <a href="https://youtu.be/bpylkHViR04">
       <img src="https://github.com/user-attachments/assets/151a6bee-465d-4097-b799-0a006f229ea1" width="400"/>
     </a>
@@ -135,7 +136,7 @@ ___
 </div>
 
   ## 🎥 Vídeo do Produto
-  <p align=left">
+  <p align="center">
     <a href="">
       <img src="https://github.com/user-attachments/assets/632bdc05-25e1-49d7-a5de-d679f4643b07" width="400"/>
     </a>
@@ -152,15 +153,13 @@ ___
   
   <ul>
     <li> Uso da inteligência artificial para apoio na geração de especificações técnicas com base nas normas NBR</li>
-    <li> Sugestão automatizada de normas NBR</li>
     <li> Criação de um dashboard para a visualização dos dados do sistema</li>
   </ul>
 
   ## 🔍 DoR e DoD
-  [Acessar documentação](docs/sprints/sprint%203/DoR%20e%20DoD%20-%20Sprint%203.pdf)
+  [Acessar documentação](docs/sprints/sprint-3/DoR%20e%20DoD-%20Sprint%203.pdf)
 
   ## 📷 Protótipo
-  <a id="prototipo"></a>
 <div align="center">
 <table>
   <tr>
@@ -172,7 +171,7 @@ ___
 </div>
 
   ## 🎥 Vídeo do Produto
-  <p align=left">
+  <p align="center">
     <a href="">
       <img src="" width="400"/>
     </a>
@@ -182,96 +181,64 @@ ___
 
 
 ---
+
+
+## 🗂️ Manual de Execução
+<a id="teste"></a>
 <details>
 
-<summary> Como testar o projeto?</summary>
+<summary> Execute o sistema localmente seguindo os passos abaixo</summary>
 
-## 📋 Pré-requisitos
+### 📋 Pré-requisitos
 
-Antes de iniciar, é necessário ter instalado:
+Antes de iniciar, verifique:
 
-| Tecnologia | Versão recomendada |
-| :--- | :--- |
-| **Python** | 3.10 ou superior |
-| **Node.js** | 18 ou superior |
-| **npm** | 9 ou superior |
-| **PostgreSQL** | 14 ou superior |
-| **Git** | Última versão |
-------------------------------------------------------------------------
-
+- [ ] 🐍 Python 3.10 ou superior instalado  
+- [ ] 🟢 Node.js 18 ou superior instalado  
+- [ ] 📦 npm 9 ou superior instalado  
+- [ ] 🐘 PostgreSQL 14 ou superior instalado  
+- [ ] 🔧 Git instalado  
+#
 ## 🔧 Backend (Django)
 
-1.  Acesse a pasta do backend
+- [ ] Acessar a pasta: `cd fornovo-backend/forback`
+- [ ] Criar ambiente virtual: `python -m venv venv`
+- [ ] Ativar ambiente:
+  - Windows: `venv\Scripts\activate`
+  - Linux/Mac: `source venv/bin/activate`
 
-        cd fornovo-backend/forback
+### ⚙️ Configuração
+- [ ] Criar arquivo `.env` com:
+  - `DB_NAME=`
+  - `DB_USER=`
+  - `DB_PASSWORD=`
+  - `DB_HOST=`
+  - `DB_PORT=`
 
-2.  Crie o ambiente virtual
+- [ ] Instalar dependências: `pip install -r requirements.txt`
 
-        python -m venv venv
+### 🗄️ Banco de dados
+- [ ] Criar banco no PostgreSQL (pgAdmin)
+- [ ] Executar migrações: `python manage.py migrate`
 
-3.  Ative o ambiente virtual
-
-    ### Windows
-
-        venv\Scripts\activate
-
-    ### Linux / Mac
-
-        source venv/bin/activate
-
- 4. Adicione o .env e instale as dependências
-
-    Crie um arquivo .env com o seguinte conteúdo:
-    
-    - DB_NAME=
-    - DB_USER=
-    - DB_PASSWORD=
-    - DB_HOST=
-    - DB_PORT=
-
- 5. Depois instale as dependências:
-
-        pip install -r requirements.txt
-
-
- 6.  Execute as migrações do banco
-
-     ### (Antes de executar as migrações, crie um o banco no pgAdmin4 para o migrate ter onde rodar)
-
-         python manage.py migrate
-
- 7.  Inicie o servidor
-
-         python manage.py runserver
-
-### O backend estará disponível em:
-
-http://127.0.0.1:8000
-
-------------------------------------------------------------------------
+### ▶️ Executar backend
+- [ ] Iniciar servidor: `python manage.py runserver`
+- [ ] Acessar: http://127.0.0.1:8000
+#
 
 ## 🎨 Frontend (React)
 
-   1.  Acesse a pasta do frontend
+- [ ] Acessar a pasta: `cd fornovo-frontend/forfront`
+- [ ] Instalar dependências: `npm install`
+- [ ] Executar projeto: `npm run dev`
+- [ ] Acessar: http://localhost:5173
 
-           cd fornovo-frontend/forfront
+#
 
-   2.  Instale as dependências
-
-           npm install
-
-   3.  Execute o projeto
-
-           npm run dev
-
-### O frontend estará disponível em:
-
-http://localhost:5173
-
-------------------------------------------------------------------------
-
-✅ Após iniciar backend e frontend, o sistema já estará pronto para uso no
-navegador.
+## ✅ Finalização
+- [x] 🔧 Backend rodando
+- [x] 🎨 Frontend rodando
+- [x] 🌐 Sistema funcionando no navegador
 </details>
 
 ---
