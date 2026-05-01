@@ -242,6 +242,18 @@ Antes de iniciar, verifique:
 </details>
 
 ---
+## 📚 Documentação
+<details>
+  <summary> Acessar documentação do projeto </summary>
+   
+  #### 📠 Modelagem do Banco
+  - [Modelo Conceitual](docs/modelagem-bd/Modelo%20Conceitual.pdf)
+  - [Modelo Lógico](docs/modelagem-bd/Modelo%20Lógico.pdf)
+
+
+</details>
+
+---
 
 
 ## :medal_sports: Docentes
