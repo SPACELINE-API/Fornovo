@@ -59,7 +59,7 @@ ___
 | Kick Off Geral | 02/03/2026 - 06/03/2026 | Concluído | 
 | Construção do Backlog | 09/03/2026 - 13/03/2026 | Concluído |
 | 01 | 16/03/2026 - 05/04/2026 | Concluído | 
-| 02 | 13/04/2026 - 03/05/2026 | Em andamento |
+| 02 | 13/04/2026 - 03/05/2026 | Concluído |
 | 03 | 11/05/2026 - 31/06/2026 | Não iniciado | 
 
 ___
