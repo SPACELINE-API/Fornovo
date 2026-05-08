@@ -122,7 +122,7 @@ ___
   </ul>
 
   ## 🔍 DoR e DoD
-  [Acessar documentação](docs/sprints/sprint2/DoR%20e%20DoD%20-%20Sprint%202.pdf)
+  [Acessar documentação](docs/sprints/sprint-2/DoR%20e%20DoD-%20Sprint%202.pdf)
 
   ## 📷 Protótipo
 <div align="center">
