@@ -90,9 +90,9 @@ ___
 <div align="center">
 <table>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/7800bd28-f388-4c03-91c4-f3a24db2326b" width="400"></td>
+    <td><img src="https://github.com/user-attachments/assets/7800bd28-f388-4c03-91c4-f3a24db2326b" width="500"></td>
     <td width="10"></td>
-    <td><img src="https://github.com/user-attachments/assets/bcbf8eec-899f-4f4b-91e9-729b7682c859" width="400"></td>
+    <td><img src="https://github.com/user-attachments/assets/bcbf8eec-899f-4f4b-91e9-729b7682c859" width="500"></td>
   </tr>
 </table>
 </div>
@@ -128,9 +128,9 @@ ___
 <div align="center">
 <table>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/3d982ab8-2833-49e4-ad78-cc22f48ed145" width="400"></td>
+    <td><img src="https://github.com/user-attachments/assets/3d982ab8-2833-49e4-ad78-cc22f48ed145" width="500"></td>
     <td width="10"></td>
-    <td><img src="https://github.com/user-attachments/assets/cfe693d2-41c5-41d9-901e-935eb2ea1367" width="400"></td>
+    <td><img src="https://github.com/user-attachments/assets/cfe693d2-41c5-41d9-901e-935eb2ea1367" width="500"></td>
   </tr>
 </table>
 </div>
@@ -154,6 +154,7 @@ ___
   <ul>
     <li> Uso da inteligência artificial para apoio na geração de especificações técnicas com base nas normas NBR</li>
     <li> Criação de um dashboard para a visualização dos dados do sistema</li>
+    <li> Sininho de otificações para atualizar o usuário do que foi alterado</li>
   </ul>
 
   ## 🔍 DoR e DoD
@@ -161,13 +162,15 @@ ___
 
   ## 📷 Protótipo
 <div align="center">
-<table>
-  <tr>
-    <td><img src="" width="400"></td>
-    <td width="10"></td>
-    <td><img src="" width="400"></td>
-  </tr>
-</table>
+  <table>
+    <tr>
+      <td><img src="https://github.com/user-attachments/assets/3bc8a86f-218b-4e91-bb76-77239cbec8f1" width="500"></td>
+      <td width="20"></td>
+      <td><img src="https://github.com/user-attachments/assets/051faeef-2b8b-4fb1-b13b-91f083acff4e" width="500"></td>
+    </tr>
+    <tr height="20"></tr>
+    </tr>
+  </table>
 </div>
 
   ## 🎥 Vídeo do Produto
