@@ -60,7 +60,7 @@ ___
 | Construção do Backlog | 09/03/2026 - 13/03/2026 | Concluído |
 | 01 | 16/03/2026 - 05/04/2026 | Concluído | 
 | 02 | 13/04/2026 - 03/05/2026 | Concluído |
-| 03 | 11/05/2026 - 31/06/2026 | Em andamento | 
+| 03 | 11/05/2026 - 31/06/2026 | Concluído | 
 
 ___
 
@@ -154,7 +154,7 @@ ___
   <ul>
     <li> Uso da inteligência artificial para apoio na geração de especificações técnicas com base nas normas NBR</li>
     <li> Criação de um dashboard para a visualização dos dados do sistema</li>
-    <li> Sininho de otificações para atualizar o usuário do que foi alterado</li>
+    <li> Sininho de notificações para atualizar o usuário do que foi alterado</li>
   </ul>
 
   ## 🔍 DoR e DoD
