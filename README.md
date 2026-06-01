@@ -1,53 +1,31 @@
   # 🚀 SpaceLine - API ADS 4º Semestre
+  <img width="1584" height="396" alt="White and Blue Simple Gradient Business Profile LinkedIn Banner" src="https://github.com/user-attachments/assets/db8c92b3-0f3c-4c69-8097-c7b74c842e38" />
 
 
  <p align = "center">
   <a href = "#desafio"> Desafio </a>  |  
   <a href = "#tecnologias"> Tecnologias </a>  | 
-  <a href = "#prototipo"> Protótipo </a> |
   <a href = "#backlog"> Backlog do produto </a>  |
-  <a href = "#sprint"> Descrição das sprints </a>  |
-  <a href = "#dor"> DoR </a>  |
-  <a href = "#dod"> DoD </a> |
+  <a href = "#calendario"> Calendário de Entregas </a> |
+  <a href = "#sprint"> Resumo das Sprints </a> | 
+  <a href = "#teste"> Manual de Execução</a> | 
   <a href = "#equipe"> Equipe </a>       
 </p>
 
    ## 📃 Desafio
    <a id="desafio"></a>
   Desenvolvimento de aplicação web com modelo de dados complexo e aplicação de padrões de projetos, com automatização das documentações tecnicas internas como: 
-elaboração automatica de memorial e cálculo e especificações tecnicas a partir das plantas em CAD.
+elaboração automática de memorial e cálculo e especificações técnicas a partir das plantas em CAD.
 
 ___
 
   ## ⚙️ Tecnologias
 <a id="tecnologias"></a>
 <div align="left">
-  <img src="https://go-skill-icons.vercel.app/api/icons?i=canva,css,figma,git,github,vscode,python,django,postgresql,jira,excel,typescript,javascript,html,react,ollama,pandas" />
+  <img src="https://go-skill-icons.vercel.app/api/icons?i=canva,css,figma,git,github,vscode,python,django,postgresql,jira,excel,typescript,html,react,ollama" />
 </div>
 
 ___
-
-  ## 📷 Protótipo do Programa 
-  <a id="prototipo"></a>
-  ![Protótipo]()
-
-___
-
-## 📅 Sprints
-<a id="sprint"></a>
-  
-  Sprint | Previsão | Status| Link
-  |------|--------|------|------|
-  |Kick Off Geral | 02/03/2026 - 06/03/2026 | Concluído | |
-  |Construção do Backlog | 09/03/2026 - 13/03/2026 | Concluído | |
-  |01| 16/03/2026 - 05/04/2026 | Em andamento |  |
-  |02| 13/04/2026 - 03/05/2026 | Não iniciado |  |
-  |03| 11/05/2026 - 31/06/2026 | Não iniciado |  |
-
-
-###
-___
-
 ## 🐙 Backlog do Produto
 <a id="backlog"></a>
 
@@ -59,39 +37,227 @@ ___
 | 4 | Como engenheiro, quero que o sistema extraia coordenadas e elementos geométricos da planta CAD, para utilizar essas informações nos cálculos do projeto | Alta | 1 |
 | 5 | Como engenheiro, quero que o sistema realize automaticamente os cálculos do memorial técnico de acordo com as fórmulas definidas, para garantir precisão nos resultados e agilizar a elaboração do documento do projeto | Altíssima | 1 |
 | 6 | Como projetista, quero exportar o memorial de cálculo em planilha Excel e salvar os dados do memorial no sistema, para facilitar a análise, documentação e armazenamento das informações do projeto | Média | 1 |
-| 7 | Como administrador, quero atualizar, adicionar ou remover normas NBR no sistema, para garantir que as especificações técnicas e cálculos estejam sempre de acordo com as normas mais recentes  | Média | 1 |
-| 8 | Como usuário, quero visualizar todos os projetos cadastrados, para acompanhar o andamento das obras  | Baixa | 1 |
-| 9 | Como usuário, quero editar os dados de um projeto já cadastrado, para corrigir ou atualizar informações quando necessário | Média | 2 |
-| 10 | Como usuário, quero ter a possibilidade de exportar a planta CAD como imagem, para facilitar a visualização do projeto  | Baixa | 2 |
-| 11 | Como engenheiro, quero utilizar inteligência artificial para auxiliar na geração das especificações técnicas, para automatizar a documentação técnica do projeto  | Altíssima | 2 |
-| 12 | Como engenheiro, quero que as especificações técnicas sejam geradas com base nas normas NBR, para garantir conformidade com as normas técnicas brasileiras  | Alta | 2 |
-| 13 | Como usuário do sistema, quero realizar login com email e senha, para acessar as funcionalidades do sistema de forma segura  | Média | 2 |
-| 14 | Como administrador, quero definir níveis de acesso para os usuários, para controlar quais funcionalidades cada usuário pode acessar  | Média | 2 |
-| 15 | Como administrador, quero cadastrar novos funcionários e desativar funcionários antigos, para manter o controle atualizado dos usuários que podem acessar o sistema | Alta | 3 |
-| 16 | Como administrador, quero gerenciar permissões de criação, edição e visualização de projetos, para garantir segurança e organização   | Média | 3 |
-| 17 | Como projetista, quero receber sugestões de normas NBR aplicáveis ao projeto, para garantir que o memorial esteja de acordo com as normas técnicas  | Alta | 3 |
-| 18 | Como usuário, quero filtrar projetos pelo status (em progresso, revisão ou concluído), para identificar rapidamente o estado da obra  | Baixa | 3 |
-| 19 | Como usuário, quero buscar um projeto pelo nome, para encontrar rapidamente um projeto específico  | Baixa | 3 |
+| 7 | Como engenheiro, quero atualizar, adicionar ou remover normas NBR no sistema, para garantir que as especificações técnicas e cálculos estejam sempre de acordo com as normas mais recentes  | Média | 1 |
+| 8 | Como projetista, quero visualizar todos os projetos cadastrados, para acompanhar o andamento das obras  | Baixa | 1 |
+| 9 | Como usuário, quero filtrar projetos pelo status (em progresso, revisão ou concluído), para identificar rapidamente o estado da obra  | Baixa | 1 |
+| 10 | Como projetista, quero buscar um projeto pelo nome, para encontrar rapidamente um projeto específico  | Baixa | 1 |
+| 11 | Como usuário, quero atualizar o status do projeto de acordo com a regra de negócio, seguindo a sequência: de Pendente para Em andamento, depois para Em revisão e, por fim, Concluído| Média | 2 |
+| 12 | Como usuário do sistema, quero realizar login com email e senha, para acessar as funcionalidades do sistema de forma segura  | Média | 2 |
+| 13 | Como administrador, quero que todos os usuários tenham acesso padrão às funcionalidades do sistema, para garantir simplicidade no uso | Média | 2 |
+| 14 | Como administrador, quero cadastrar novos funcionários e desativar funcionários antigos, para manter o controle atualizado dos usuários que podem acessar o sistema | Alta | 2 |
+| 15 | Como engenheiro, quero utilizar inteligência artificial para auxiliar na geração das especificações técnicas e para automatizar a documentação do projeto  | Altíssima | 3 |
+| 16 | Como engenheiro, quero que as especificações técnicas sejam geradas com base nas normas NBR, para garantir conformidade com as normas técnicas brasileiras  | Alta | 3 |
+| 17 | Como engenheiro, quero visualizar todo o sistema por meio de um dashboard, com indicadores e dados resumidos, para acompanhar o andamento e tomar decisões com mais facilidade | Baixa | 3 |
 
 ___
 
-## 📋 DoR
-<a id="dor"></a>
-- Protótipo desenvolvido no Figma
-- Os critérios de aceitação estão definidos e claros
-- Prazo estimado e explicitamente documentado 
-- A equipe entende o que precisa ser feito e tirou as dúvidas
-___
+## 📅 Calendário de Entregas
+<a id="calendario"></a>
 
-## ✅ DoD
-<a id="dod"></a>
-- Testes de integração foram executados sem falhas
-- Testes unitários executados e aprovados
-- PR sendo realizado e aprovado por pelo menos 2 pessoas antes do merge na branch principal
-- Validação do Product Owner
-- Documentação técnica atualizada
+| Sprint | Previsão | Status | 
+|------|--------|------|
+| Kick Off Geral | 02/03/2026 - 06/03/2026 | Concluído | 
+| Construção do Backlog | 09/03/2026 - 13/03/2026 | Concluído |
+| 01 | 16/03/2026 - 05/04/2026 | Concluído | 
+| 02 | 13/04/2026 - 03/05/2026 | Concluído |
+| 03 | 11/05/2026 - 31/06/2026 | Em andamento | 
 
 ___
+
+## 📝 Resumo das Sprints
+<a id="sprint"></a>
+<details>
+     
+<summary>Sprint 1</summary>
+
+  ## 🎯 Objetivos da Sprint
+
+  <p>Nesta sprint, foi planejada a entrega de:</p>
+  
+  <ul>
+    <li> Plataforma inicial com cadastro de projetos, formulário de levantamento de campo e importação de arquivos CAD (DXF)</li>
+    <li> Visualização, busca e filtragem dos projetos cadastrados</li>
+    <li> Sistema com extração automática de dados geométricos da planta e geração automatizada do memorial de cálculo</li>
+    <li> Exportação dos resultados em Excel</li>
+    <li> Cadastro de normas NBR no sistema para garantir conformidade dos documentos técnicos</li>
+  </ul>
+
+  ## 🔍 DoR e DoD
+  [Acessar documentação](docs/sprints/sprint1/DoR%20e%20DoD%20-%20Sprint%201.pdf)
+
+  ## 📷 Protótipo
+  <a id="prototipo"></a>
+<div align="center">
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/7800bd28-f388-4c03-91c4-f3a24db2326b" width="500"></td>
+    <td width="10"></td>
+    <td><img src="https://github.com/user-attachments/assets/bcbf8eec-899f-4f4b-91e9-729b7682c859" width="500"></td>
+  </tr>
+</table>
+</div>
+
+  ## 🎥 Vídeo do Produto
+  <p align="center">
+    <a href="https://youtu.be/bpylkHViR04">
+      <img src="https://github.com/user-attachments/assets/151a6bee-465d-4097-b799-0a006f229ea1" width="400"/>
+    </a>
+  </p>
+  
+</details>
+
+<details>
+     
+<summary>Sprint 2</summary>
+
+  ## 🎯 Objetivos da Sprint
+
+  <p>Nesta sprint, foi planejada a entrega de:</p>
+  
+  <ul>
+    <li> Sistema de autenticação com login</li>
+    <li> Cadastro e edição de funcionário</li>
+    <li> Funcionalidades de edição de projetos</li>
+    <li> Relatório com os dados extraídos da planta CAD</li>
+  </ul>
+
+  ## 🔍 DoR e DoD
+  [Acessar documentação](docs/sprints/sprint-2/DoR%20e%20DoD-%20Sprint%202.pdf)
+
+  ## 📷 Protótipo
+<div align="center">
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/3d982ab8-2833-49e4-ad78-cc22f48ed145" width="500"></td>
+    <td width="10"></td>
+    <td><img src="https://github.com/user-attachments/assets/cfe693d2-41c5-41d9-901e-935eb2ea1367" width="500"></td>
+  </tr>
+</table>
+</div>
+
+  ## 🎥 Vídeo do Produto
+  <p align="center">
+    <a href="https://youtu.be/HecQTUqGrMU">
+      <img src="https://github.com/user-attachments/assets/632bdc05-25e1-49d7-a5de-d679f4643b07" width="400"/>
+    </a>
+  </p>
+  
+</details>
+
+<details>
+<summary>Sprint 3</summary>
+
+  ## 🎯 Objetivos da Sprint
+
+  <p>Nesta sprint, foi planejada a entrega de:</p>
+  
+  <ul>
+    <li> Uso da inteligência artificial para apoio na geração de especificações técnicas com base nas normas NBR</li>
+    <li> Criação de um dashboard para a visualização dos dados do sistema</li>
+    <li> Sininho de otificações para atualizar o usuário do que foi alterado</li>
+  </ul>
+
+  ## 🔍 DoR e DoD
+  [Acessar documentação](docs/sprints/sprint-3/DoR%20e%20DoD-%20Sprint%203.pdf)
+
+  ## 📷 Protótipo
+<div align="center">
+  <table>
+    <tr>
+      <td><img src="https://github.com/user-attachments/assets/3bc8a86f-218b-4e91-bb76-77239cbec8f1" width="500"></td>
+      <td width="20"></td>
+      <td><img src="https://github.com/user-attachments/assets/051faeef-2b8b-4fb1-b13b-91f083acff4e" width="500"></td>
+    </tr>
+    <tr height="20"></tr>
+    </tr>
+  </table>
+</div>
+
+  ## 🎥 Vídeo do Produto
+  <p align="center">
+    <a href="https://youtu.be/UL3YlmNp4XE">
+      <img src="https://github.com/user-attachments/assets/240d5e42-ce47-442f-a452-2af9742dd8b7" width="400"/>
+    </a>
+  </p>
+  
+</details>
+
+
+---
+
+
+## 🗂️ Manual de Execução
+<a id="teste"></a>
+<details>
+
+<summary> Execute o sistema localmente seguindo os passos abaixo</summary>
+
+### 📋 Pré-requisitos
+
+Antes de iniciar, verifique:
+
+- [ ] 🐍 Python 3.10 ou superior instalado  
+- [ ] 🟢 Node.js 18 ou superior instalado  
+- [ ] 📦 npm 9 ou superior instalado  
+- [ ] 🐘 PostgreSQL 14 ou superior instalado  
+- [ ] 🔧 Git instalado  
+#
+## 🔧 Backend (Django)
+
+- [ ] Acessar a pasta: `cd fornovo-backend/forback`
+- [ ] Criar ambiente virtual: `python -m venv venv`
+- [ ] Ativar ambiente:
+  - Windows: `venv\Scripts\activate`
+  - Linux/Mac: `source venv/bin/activate`
+
+### ⚙️ Configuração
+- [ ] Criar arquivo `.env` com:
+  - `DB_NAME=`
+  - `DB_USER=`
+  - `DB_PASSWORD=`
+  - `DB_HOST=`
+  - `DB_PORT=`
+
+- [ ] Instalar dependências: `pip install -r requirements.txt`
+
+### 🗄️ Banco de dados
+- [ ] Criar banco no PostgreSQL (pgAdmin)
+- [ ] Executar migrações: `python manage.py migrate`
+
+### ▶️ Executar backend
+- [ ] Iniciar servidor: `python manage.py runserver`
+- [ ] Acessar: http://127.0.0.1:8000
+#
+
+## 🎨 Frontend (React)
+
+- [ ] Acessar a pasta: `cd fornovo-frontend/forfront`
+- [ ] Instalar dependências: `npm install`
+- [ ] Executar projeto: `npm run dev`
+- [ ] Acessar: http://localhost:5173
+
+#
+
+## ✅ Finalização
+- [x] 🔧 Backend rodando
+- [x] 🎨 Frontend rodando
+- [x] 🌐 Sistema funcionando no navegador
+</details>
+
+---
+## 📚 Documentação
+<details>
+  <summary> Acessar documentação do projeto </summary>
+   
+  #### 📠 Modelagem do Banco
+  - [Modelo Conceitual](docs/modelagem-bd/Modelo%20Conceitual.pdf)
+  - [Modelo Lógico](docs/modelagem-bd/Modelo%20Lógico.pdf)
+
+
+</details>
+
+---
+
 
 ## :medal_sports: Docentes
 | P¹ | m² |
